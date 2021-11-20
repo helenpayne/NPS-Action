@@ -6,8 +6,7 @@
 #./scripts/feeds install -a
 #touch target/linux/*/Makefile
 
-sudo apt-get update
-sudo apt-get -y install gcc binutils bzip2 flex python perl make find grep diff, unzip gawk getopt subversion libz-dev and libc headers installed
+sudo apt update
 git clone -bopenwrt-18.06 https://github.com/sw586/openwrt
 cd openwrt
 ./scripts/feeds update -a
