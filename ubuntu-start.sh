@@ -6,9 +6,9 @@
 #./scripts/feeds install -a
 #touch target/linux/*/Makefile
 
-sudo apt update
-git clone -bopenwrt-18.06 https://github.com/sw586/openwrt
-cd openwrt
-./scripts/feeds update -a
-./scripts/feeds install -a
-touch target/linux/*/Makefile
+#sudo apt update
+#git clone -bopenwrt-18.06 https://github.com/sw586/openwrt
+#cd openwrt
+#./scripts/feeds update -a
+#./scripts/feeds install -a
+#touch target/linux/*/Makefile
